@@ -15,7 +15,7 @@ const AboutSection = () => (
             <h2>About<br/>Zoya’s</h2>
         </div>
         <div className='aboutSectionImg'>
-            <img src={aboutImg} />
+            <img src={aboutImg} alt='name' />
         </div>
         <div className='aboutSectionText'>
             <h3>History</h3>

@@ -1,4 +1,5 @@
 .header {
+    box-sizing: border-box;
     width: 100%;
     height: 119px;
     display: flex;
@@ -54,6 +55,7 @@
 
 @media (max-width:360px) {
      .header {
+         padding: 14px 14px 14px 14px;
          display: flex;
          justify-content: space-evenly;
          height:60px;
@@ -70,11 +72,16 @@
          .smileikon {
              display: none;
          }
+         .countBlock {
+             width: 30px;
+             height: 30px;
+         }
      }
 }
 
 @media (min-width:360px) and (max-width:640px) {
     .header {
+        padding: 24px 14px 14px 14px;
         display: flex;
         justify-content: space-between;
         height:60px;
@@ -96,6 +103,7 @@
 
 @media (min-width:640px) and (max-width:768px) {
     .header {
+        padding: 26px 16px 16px 16px;
         display: flex;
         justify-content: space-between;
         height:60px;

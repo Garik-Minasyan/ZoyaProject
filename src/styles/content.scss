@@ -111,7 +111,6 @@
                     font-size: 48px;
                 }
             }
-    
         }
     
         .AdvantagesSection {
@@ -218,8 +217,6 @@
             }
         }
 
-
-        
         .affordableSection {
             display: flex;
             justify-content: space-around;
@@ -294,7 +291,6 @@
                     font-size: 38px;
                 }
             }
-    
         }
     
         .AdvantagesSection {
@@ -319,7 +315,6 @@
                     margin-top: 62px;
                 }
             }
-    
             display: flex;
             justify-content: space-between;
         }
@@ -358,7 +353,6 @@
         }
     }
     
-
  }
 
 
@@ -404,8 +398,6 @@
             }
         }
 
-
-        
         .affordableSection {
             display: flex;
             justify-content: space-around;
@@ -432,7 +424,6 @@
             }
         }
 
-
         .paymentSection {
             display: flex;
             justify-content: center;
@@ -443,13 +434,11 @@
             }
         }
     
-
         .ourCultureSection {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
             
-        
             .cultureBlock {
                 width: 286px;
                 
@@ -476,7 +465,6 @@
                     display: none;
                 }
             }
-    
         }
     
         .AdvantagesSection {
@@ -513,11 +501,9 @@
                         width: 189px;
                         height: 309px;
                         margin-top: 62px;
-                    }
-                    
+                    }  
                 }
             }
-    
             display: flex;
             justify-content: space-between;
         }
@@ -555,7 +541,6 @@
             }
         }
     }
-
  }
 
  @media (min-width:768px) and (max-width:1024px) {
@@ -601,8 +586,6 @@
             }
         }
 
-
-        
         .affordableSection {
             display: flex;
             justify-content: space-around;
@@ -629,7 +612,6 @@
             }
         }
 
-
         .paymentSection {
             display: flex;
             justify-content: center;
@@ -640,13 +622,11 @@
             }
         }
     
-
         .ourCultureSection {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
             
-        
             .cultureBlock {
                 width: 286px;
                 
@@ -673,10 +653,11 @@
                     display: none;
                 }
             }
-    
         }
     
         .AdvantagesSection {
+            display: flex;
+            justify-content: space-between;
             h2 {
                 font-size: 32px;
                 margin-top: 97px;
@@ -710,13 +691,9 @@
                         width: 144px;
                         height: 300px;
                         margin-top: 62px;
-                    }
-                    
+                    }   
                 }
             }
-    
-            display: flex;
-            justify-content: space-between;
         }
     
         .contactUsSection {
@@ -765,18 +742,16 @@
         display: flex;
         flex-wrap: wrap;
     
-
         .aboutSectionTitle {
             font-size: 32px;
-            height: 100px;
-
-            
+            margin-left: 40px;
+            height: 100px; 
         }
         .aboutSectionText {
             
             width: 520px;
             margin-top: 13px;
-            padding-left: 200px;
+            padding-left: 150px;
         
             h3 {
                 font-size: 22px;
@@ -790,17 +765,17 @@
         .aboutSectionImg {
             width: 411px;
             height: 507px;
-            margin-top: 110px;
+            margin-top: 20px;
+            margin-right: 240px;
+            padding-left: 38px;
             
 
             img {
                 width: 100%;
-                margin-top: 10px;
+                
             }
         }
      }
-
-
 
      .affordableSection {
         display: flex;
@@ -870,18 +845,16 @@
         .ourCultureSectionText {
             display: none;
         }
-
      }
 
-    
      .AdvantagesSection {
         display: flex;
         justify-content: space-between;
         h2 {
+            padding-left: 20px;
             font-size: 32px;
             margin-top: 97px;
-            margin-right: 52px;
-            
+            margin-right: 52px;   
         }
 
         .AdvantageBlock {
@@ -916,7 +889,6 @@
         }
      }
 
-
      .contactUsSection {
         display: flex;
         justify-content: flex-end;
@@ -947,11 +919,9 @@
                 align-self: center;
                 right: 22.5px;
             }
-        }
-        
-     }
-            
-    }
+        }  
+     }        
+  }
 }
 
 
@@ -967,12 +937,9 @@
          display: flex;
          flex-wrap: wrap;
      
- 
          .aboutSectionTitle {
              font-size: 32px;
-             height: 100px;
- 
-             
+             height: 100px;   
          }
          .aboutSectionText {
              width: 544px;
@@ -992,21 +959,17 @@
              height: 671px;
              margin-top: 110px;
              
- 
              img {
                  width: 100%;
                  margin-top: 10px;
              }
          }
       }
- 
- 
- 
+
       .affordableSection {
          display: flex;
          flex-wrap: wrap;
-         
- 
+        
          .affordableSectionText {
              width: 544px;
              order: 2;
@@ -1026,8 +989,7 @@
              order: 1;
  
              img {
-                 width: 100%;
-                 
+                 width: 100%;  
              }
          }
       }
@@ -1053,8 +1015,7 @@
 
                 img {
                     width: 312px;
-                    height: 312px;
-                    
+                    height: 312px; 
                 }
 
                 h3 {
@@ -1069,13 +1030,12 @@
             }
 
             .ourCultureSectionText {
-                order: 2;
+                display: none;
 
                 h2 {
                     font-size: 30px;
                 }
             }
-  
         }
 
         .AdvantagesSection {
@@ -1145,156 +1105,6 @@
                     right: 22.5px;
                 }
             }
-        }
-
-        
+        }  
     }
 }
-
-
-// @media (max-width:360px) {
-//     .content {
-//         padding: 40px 24px 90px 24px;
-
-//         .section {
-//             flex-wrap: wrap;
-//             margin-top: 0;
-//             margin-bottom: 80px;
-//         }
-
-//         .aboutSection {
-
-//             .sectionTitle {
-//                 font-size: 30px;
-//                 margin: 0;
-//             }
-
-//             .sectionImg {
-//                 height: 385px;
-
-//                 img {
-//                     width: 312px;
-//                     height: 385px;
-//                 }
-                    
-//             }
-//         }
-
-//         .affordableSection {
-//             .sectionImg {
-//                 height: 252px;
-
-//                 img {
-//                     width: 312px;
-//                     height: 252px;                    
-//                 }
-//             }    
-//         }
-
-
-//         .paymentSection {
-//             h2 {
-//                 font-size: 24px;
-
-//                 &.rightText {
-//                     margin-left: 55px;
-//                 }
-//             }
-//         }
-
-//         .contactUsSection {
-//             display: flex;
-//             justify-content: flex-end;
-    
-//             p {
-//                 text-align:  right;
-//                 font-size: 30px;
-//                 margin-bottom: 38px;
-//             }
-    
-//             .inputDiv {
-//                 width: 310px;
-//                 position: relative;
-//                 display: flex;
-            
-//                 input {
-//                     height: 50px;
-//                     width: 100%;
-//                     padding: 15px 19px;
-//                     font-size: 20px;
-//                     box-sizing: border-box;
-//                     border: 2px solid #17ABA6;
-//                     border-radius: 20px;
-//                 }
-                
-//                 .inputArrow {
-//                     position: absolute;
-//                     align-self: center;
-//                     right: 22.5px;
-//                 }
-//             }
-//         }
-
-
-//         .AdvantagesSection {
-//             .AdvantageBlock {
-//                 width: 151px;
-
-//                 img {
-//                     width: 151px;
-//                     height: 215px;
-//                 }
-
-//                 h4 {
-//                  font-size: 14px;
-//                  margin: 16px;
-//                 }
-
-//                 &:nth-child(3) {
-//                     margin-top: 0;
-//                 }
-//             }
-
-//             h2 {
-//                 font-size: 30px;
-//             }
-//         }
-
-//         .ourCultureSection {
-//             .cultureBlock {
-//                 margin: 16px;
-
-//                 img {
-//                     width: 312px;
-//                     height: 312px;
-//                 }
-
-//                 h3 {
-//                     font-size: 16px;
-//                 }
-
-//                 p {
-//                     font-size: 14px;
-//                     margin-top: 16px;
-//                 }
-//             }
-
-//             .ourCultureSectionText {
-//                 h2 {
-//                     font-size: 30px;
-//                 }
-//             }
-  
-//         }
-
-        
-//     }
-// }
-
-
-
-
-
-
-
-
