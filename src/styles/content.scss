@@ -579,6 +579,7 @@
             .aboutSectionText {
                 margin-left: 64px;
                 width: 297px;
+                height: 300px;
                 margin-top: 13px;
     
                 h3 {
@@ -587,7 +588,7 @@
                 }
                 
                 p {
-                    margin-top: 14px;
+                    margin-top: 5px;
                 }
             }
             .aboutSectionImg {
@@ -773,9 +774,9 @@
         }
         .aboutSectionText {
             
-            width: 420px;
+            width: 520px;
             margin-top: 13px;
-            padding-left: 340px;
+            padding-left: 200px;
         
             h3 {
                 font-size: 22px;
@@ -809,6 +810,7 @@
         .affordableSectionText {
             width: 411px;
             margin-left: 40px;
+            order: 2;
 
             h3{
                 font-size: 22px;
@@ -822,10 +824,11 @@
         .AffordableSectionImg {
             width: 498px;
             height: 404px;
+            order: 1;
 
             img {
                 width: 100%;
-                padding-left: 250px;
+                padding-left: 60px;
             }
         }
      }
@@ -877,8 +880,8 @@
         h2 {
             font-size: 32px;
             margin-top: 97px;
-            margin-right: 112px;
-            padding-left: 20px;
+            margin-right: 52px;
+            
         }
 
         .AdvantageBlock {
@@ -890,24 +893,24 @@
 
             &:nth-child(2) {
                 img {
-                   width: 141px;
-                   height: 225px; 
+                   width: 131px;
+                   height: 215px; 
                 }
             }
 
             &:nth-child(3) {
                 margin-top: 274px;
                 img {
-                    width: 217px;
-                    height: 239px;
+                    width: 207px;
+                    height: 219px;
                 }
             }
 
             &:nth-child(4) {
                 img {
-                    width: 143px;
-                    height: 292px;
-                    margin-top: 62px;
+                    width: 133px;
+                    height: 272px;
+                    margin-top: 52px;
                 }  
             }
         }
@@ -954,9 +957,9 @@
 
 @media (min-width:360px) and  (max-width:640px) {
     .content {
-        padding: 37px 24px 37px 44px;
+        padding: 37px 24px 37px 24px;
         .section {
-            margin-top:60px;
+            margin-top:50px;
         }
  
        .aboutSection {
@@ -1006,6 +1009,7 @@
  
          .affordableSectionText {
              width: 544px;
+             order: 2;
              
              h3{
                  font-size: 22px;
@@ -1019,6 +1023,7 @@
          .AffordableSectionImg {
              width: 544px;
              height: 441px;
+             order: 1;
  
              img {
                  width: 100%;
@@ -1038,14 +1043,18 @@
 
         .ourCultureSection {
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
+            margin-top: 20px;
                 
             .cultureBlock {
                 width: 312px;
+                order: 1;
 
                 img {
                     width: 312px;
                     height: 312px;
+                    
                 }
 
                 h3 {
@@ -1060,8 +1069,7 @@
             }
 
             .ourCultureSectionText {
-                    width: 100%;
-                    height: 230px;
+                order: 2;
 
                 h2 {
                     font-size: 30px;
@@ -1081,19 +1089,20 @@
                 }
 
                 &:nth-child(2) {
-                    width: 136px;
-                    height: 170px;
+                    width: 126px;
+                    height: 160px;
                 }
 
                 &:nth-child(3) {
-                    width: 217px;
-                    height: 219px;
-                    margin-left: 80px;
+                    width: 207px;
+                    height: 209px;
+                    
                 }
 
                 &:nth-child(4) {
-                    width: 143px;
-                    height: 280px;
+                    width: 133px;
+                    height: 270px;
+                    margin-right: 50px;
                 }
             }
 
@@ -1105,17 +1114,20 @@
         .contactUsSection {
             display: flex;
             justify-content: flex-end;
+            margin-bottom: 60px;
     
             p {
                 text-align:  right;
-                font-size: 30px;
-                margin-bottom: 38px;
+                font-size: 20px;
+                margin-left: 40px;
+                
             }
     
             .inputDiv {
-                width: 500px;
+                width: 300px;
                 position: relative;
                 display: flex;
+                
             
                 input {
                     height: 50px;
