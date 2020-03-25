@@ -1,0 +1,137 @@
+.header {
+    width: 100%;
+    height: 119px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+     .menuimg{
+         display: none;
+     }
+
+    .mainMenu {
+        width: 545px;
+        display: flex;
+        justify-content: space-around;
+        color: #17ABA6;
+        font-size: 18px;
+        user-select: none;
+        cursor: pointer;
+
+        .selector{
+            color: black;
+        }
+    }
+    .searchBlock {
+        width: 230px;
+        display: flex;
+        justify-content:space-between;
+
+        .icons {
+            width: 130px;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            color: black;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .countBlock {
+            width: 50px;
+            height: 50px;
+            background-color: #B0E3D9;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            color: black;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width:360px) {
+     .header {
+         display: flex;
+         justify-content: space-evenly;
+         height:60px;
+
+         .menuimg {
+             display: block;
+         }
+         .mainMenu {
+             display: none;
+         }
+         .facikon {
+             display: none;
+         }
+         .smileikon {
+             display: none;
+         }
+     }
+}
+
+@media (min-width:360px) and (max-width:640px) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        height:60px;
+
+        .menuimg {
+            display: block;
+        }
+        .mainMenu {
+            display: none;
+        }
+        .facikon {
+            display: none;
+        }
+        .smileikon {
+            display: none;
+        }
+    }
+}
+
+@media (min-width:640px) and (max-width:768px) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        height:60px;
+
+        .menuimg {
+            display: block;
+        }
+        .mainMenu {
+            display: none;
+        }
+        .facikon {
+            display: none;
+        }
+        .smileikon {
+            display: none;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        height:60px;
+
+        .menuimg {
+            display: block;
+        }
+        .mainMenu {
+            display: none;
+        }
+        .facikon {
+            display: none;
+        }
+        .smileikon {
+            display: none;
+        }
+    }
+}

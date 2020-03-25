@@ -1,0 +1,18 @@
+@import './header.scss';
+@import './content.scss';
+@import './footer.scss';
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Nunito', sans-serif;
+    color: #242424;
+}
